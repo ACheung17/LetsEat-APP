@@ -51,11 +51,6 @@ function Home() {
         let ran = Math.random() * tmp.length;
         ran = Math.floor(ran);
         setSelected(tmp[ran]);  
-        console.log(tmp);
-        console.log(ran);
-        console.log(tmp[ran]);
-        
-        console.log(selected);
         
         setShowResult(true);        
         

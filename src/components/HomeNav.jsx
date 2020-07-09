@@ -9,10 +9,10 @@ function HomeNav() {
     return (
         <div>
             <Navbar color="danger">
-                <NavbarBrand href="/">LET'S EAT</NavbarBrand>
+                <NavbarBrand href="#/">LET'S EAT</NavbarBrand>
                 <Nav className="ml-auto">
                     <Button onClick={toggle} color="danger">About</Button>
-                    <NavLink href="/restaurants">Restaurants</NavLink>
+                    <NavLink href="#/restaurants">Restaurants</NavLink>
                 </Nav>
             </Navbar>
             <Collapse isOpen={isOpen}>
