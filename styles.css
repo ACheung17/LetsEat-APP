@@ -1,0 +1,63 @@
+body {
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    font-family: "Lato";
+}
+
+.brand-font {
+    font-family: "Contrail One"; 
+}
+
+h4 {
+    font-family: "PT Serif Caption";
+}
+.navbar-brand{
+    color: white;
+    font-family: "Contrail One";
+}
+a.nav-link {
+    color: white;
+    font-family: "Lato";
+}
+
+.myContainer{
+    background-color: white;
+    
+    margin: 5% auto;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    -webkit-box-shadow: 0 0 10px lightgray;
+    box-shadow: 0 0 10px lightgray;
+}
+.insideContainer{
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.dropdown{
+    display: inline;
+}
+
+.resultContainer {
+    background-color: #dc3545;
+}
+.result-heading{
+    color: white;
+}
+
+.placeholder-img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.description{
+    color: white;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.txt{
+    font-size: 20px;
+}
