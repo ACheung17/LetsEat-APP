@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d120c13e8bb662d5e8ed6018dbfa916",
+    "revision": "96b9b5494d0abd5b49f2fa49861b98f6",
     "url": "/LetsEat-APP/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/LetsEat-APP/static/js/2.cf56826d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8ede41fc79d2ba9c99d3",
-    "url": "/LetsEat-APP/static/js/main.810db534.chunk.js"
+    "revision": "39c417784d6a90eb62bd",
+    "url": "/LetsEat-APP/static/js/main.0bff04fc.chunk.js"
   },
   {
     "revision": "0ad395d13115ec40b7b8",
