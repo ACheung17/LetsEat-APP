@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/LetsEat-APP/static/js/main.5984df1a.chunk.js",
-    "main.js.map": "/LetsEat-APP/static/js/main.5984df1a.chunk.js.map",
+    "main.js": "/LetsEat-APP/static/js/main.4d968e30.chunk.js",
+    "main.js.map": "/LetsEat-APP/static/js/main.4d968e30.chunk.js.map",
     "runtime-main.js": "/LetsEat-APP/static/js/runtime-main.14a15f01.js",
     "runtime-main.js.map": "/LetsEat-APP/static/js/runtime-main.14a15f01.js.map",
     "static/css/2.829c9cb5.chunk.css": "/LetsEat-APP/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.b7df5f09.chunk.js": "/LetsEat-APP/static/js/2.b7df5f09.chunk.js",
-    "static/js/2.b7df5f09.chunk.js.map": "/LetsEat-APP/static/js/2.b7df5f09.chunk.js.map",
+    "static/js/2.35831ba8.chunk.js": "/LetsEat-APP/static/js/2.35831ba8.chunk.js",
+    "static/js/2.35831ba8.chunk.js.map": "/LetsEat-APP/static/js/2.35831ba8.chunk.js.map",
     "index.html": "/LetsEat-APP/index.html",
-    "precache-manifest.4fc25cf69807531757f8863298a5a2fb.js": "/LetsEat-APP/precache-manifest.4fc25cf69807531757f8863298a5a2fb.js",
+    "precache-manifest.c007585935a6ba2c31b1a97e11fb49be.js": "/LetsEat-APP/precache-manifest.c007585935a6ba2c31b1a97e11fb49be.js",
     "service-worker.js": "/LetsEat-APP/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/LetsEat-APP/static/css/2.829c9cb5.chunk.css.map",
-    "static/js/2.b7df5f09.chunk.js.LICENSE.txt": "/LetsEat-APP/static/js/2.b7df5f09.chunk.js.LICENSE.txt"
+    "static/js/2.35831ba8.chunk.js.LICENSE.txt": "/LetsEat-APP/static/js/2.35831ba8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.14a15f01.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.b7df5f09.chunk.js",
-    "static/js/main.5984df1a.chunk.js"
+    "static/js/2.35831ba8.chunk.js",
+    "static/js/main.4d968e30.chunk.js"
   ]
 }
