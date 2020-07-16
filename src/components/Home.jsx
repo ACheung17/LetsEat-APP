@@ -16,6 +16,7 @@ function Home() {
         category: ""
     });
     const [showResult, setShowResult] = useState(false);
+    const [errorMsg, setErrorMsg] = useState("");
 
     useEffect(() => {
         fetch("https://infinite-dawn-76227.herokuapp.com/restaurants")
@@ -28,6 +29,7 @@ function Home() {
         console.log(category);
         console.log(price);
         let tmp = []
+        setErrorMsg("");
         
         if (category === "Anything" && price === "Any Amount"){            
            tmp = ([...restaurants]);            
@@ -47,7 +49,12 @@ function Home() {
             tmp = (restaurants.filter(rest => {
                 return (rest.category === category && rest.pricePoints === price);
             })); 
-        }           
+        }  
+        
+        if (tmp.length === 0){
+            tmp = ([...restaurants]);   
+            setErrorMsg("Sorry our database is still small at the moment. How about...");         
+        }
         let ran = Math.random() * tmp.length;
         ran = Math.floor(ran);
         setSelected(tmp[ran]);  
@@ -87,9 +94,8 @@ function Home() {
                 </Form>
             </div>
             <div >
-                {showResult && <Result name={selected.name} pricePoints={selected.pricePoints} category={selected.category} />}
+                {showResult && <Result name={selected.name} pricePoints={selected.pricePoints} category={selected.category} msg={errorMsg} />}
             </div>
-
         </div>
     );
 }

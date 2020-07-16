@@ -3,7 +3,7 @@ import React from "react";
 function Result(props) {
     return (
         <div className="myContainer resultContainer">
-            <h2 className="result-heading">LET'S EAT ...</h2>
+            {(props.msg !== "") ? <h2 className="result-heading">{props.msg}</h2> : <h2 className="result-heading">LET'S EAT ...</h2>}
             <div className="row">
                 <div className="col-sm-4 img-fluid">
                     <img className="img-fluid placeholder-img" src="https://via.placeholder.com/150" alt="placeholer"/>
