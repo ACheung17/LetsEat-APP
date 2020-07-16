@@ -20,8 +20,8 @@ function HomeNav() {
                     <CardBody>
                         <Container>
                         <h4>Can't decide where to eat?</h4>
-                        <p><span className="brand-font">LET'S EAT</span> will help you pick a place that you'd like. Filters can be added for a better match.</p>
-                        
+                        <div><span className="brand-font">LET'S EAT</span> will help you pick a place that you'd like. Filters can be added for a better match.</div>
+                        <p>For more info and the code of this app: <a href="https://github.com/ACheung17/LetsEat-APP">https://github.com/ACheung17/LetsEat-APP</a></p>
                         </Container>
                     
                     </CardBody>
