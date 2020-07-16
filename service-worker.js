@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LetsEat-APP/precache-manifest.630b4efa42befc63923b829fe2e97223.js"
+  "/LetsEat-APP/precache-manifest.40edd5a6a4faba2968e99c3295f4a07f.js"
 );
 
 self.addEventListener('message', (event) => {
